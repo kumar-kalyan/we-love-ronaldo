@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+body {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center; 
+  background: linear-gradient(#eeaeca, #94bbe9);
+  
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+}
+#date,#age{
+  background: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin: 4px 0px;
+
+}
+#goals,#boots{
+  background: white;
+  padding: 2px 5px;
+  border-radius: 6px;
+  margin: 0px 4px;
+}
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid rgb(218, 55, 191);
+}
+.gif-container {
+  font-style: italic;
+}
+.gif-image {
+  background-image: url("https://st3.depositphotos.com/2777531/12741/v/600/depositphotos_127410624-stock-illustration-surprise-inscription-with-sunrays.jpg");
+  background-size: cover;
+  border-radius: 15px;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.gif-image#physic:hover {
+  background-image: url("https://media.giphy.com/media/JV7GuEriVvMk921YaA/giphy.gif");
+}
+
+.gif-image#goal:hover {
+  background-image: url("https://media.giphy.com/media/rbL0Zuv5s3gQX6fZfP/giphy.gif");
+}
+.gif-image#hussle:hover {
+  background-image: url("https://media.giphy.com/media/33K0enoK58fLDrJE9y/giphy.gif");
+}
+.gif-image#jump:hover {
+  background-image: url("https://media.giphy.com/media/o3OUfq42zZyylYPrAN/giphy.gif");
+}
+#fo
